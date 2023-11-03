@@ -11,7 +11,7 @@
           <hr>
           <form class="box3" v-on:submit.prevent="editAir">
             <p><b><h5><strong> แบนค์เครื่องปรับอากาศ  </strong></h5></b> <input type="text" class="form-control" v-model="air.air_brand" /></p>
-            <p><b><h5><strong> ชื่อเครื่องปรับอากาศ  </strong></h5></b> <input type="text" class="form-control" v-model="air.air_name" /></p>
+            <p><b><h5><strong> " รุ่น " เครื่องปรับอากาศ  </strong></h5></b> <input type="text" class="form-control" v-model="air.air_name" /></p>
             <p><b><h5><strong> BTU เครื่องปรับอากาศ  </strong></h5></b> <input type="text" class="form-control" v-model="air.air_btu" /></p>
             <p><b><h5><strong> ระบบเครื่องปรับอากาศ  </strong></h5></b> <input type="text" class="form-control" v-model="air.air_system" /></p>
             <p><b><h5><strong> ขนาดเครื่องปรับอากาศ </strong></h5></b> <input type="text" class="form-control" v-model="air.air_size" /></p>

@@ -9,7 +9,7 @@
             <div class="box3">
               <h4><b><p>รายการเครื่องปรับอากาศ : {{ air.id }}</p></b></h4>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>แบนค์เครื่องปรับอากาศ : </b>{{ air.air_brand }}</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>ชื่อเครื่องปรับอากาศ : </b>{{ air.air_name }}</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>" รุ่น " เครื่องปรับอากาศ : </b>{{ air.air_name }}</p>
             <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BTU เครื่องปรับอากาศ  : </b>{{ air.air_btu }}</p>
               <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ระบบเครื่องปรับอากาศ : </b>{{ air.air_system }}</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>ขนาดเครื่องปรับอากาศ : </b>{{ air.air_size }}</p>
