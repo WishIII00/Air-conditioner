@@ -69,19 +69,20 @@ img{
   margin: 0;
   padding: 0;
   width: 230px;
-  background-color: #fefcfcf0;
+  background-color: rgba(242, 245, 247, 0.941);
   position: fixed;
   height: 100%;
   overflow: auto;
   font-size: 17px;
   border-radius: 0px 0px 0px 0px;
+  
 
 }
 
 .sidebar center {
   font-size: 70px;
   display: block;
-  color: #f6f6f6;
+  color: #f3f0f0;
   padding: 9px;
   text-decoration: none;
   background-color: #13130f;
@@ -102,15 +103,16 @@ img{
 
 
 .sidebar a.active {
-  background-color: #f7f7f7 ;
+  background-color: #f7f0f0 ;
   color: rgb(10, 10, 10);
 }
 
 
 .sidebar a:hover:not(.active) {
-  background-color: #d5e0f3 ;
-  border-radius: 10px 10px 10px 10px;
+  background-color: #d5e0f3;
+  border-radius: 10px;
   color: #030303;
+  
 }
 
 
@@ -141,7 +143,7 @@ div.content {
 
 .sidebar a.router-link-active{
     color: black;
-    background-color: #ffffff ;
+    background-color: rgb(196, 224, 244) ;
      border-radius: 5px 5px 5px 5px;
 
 }

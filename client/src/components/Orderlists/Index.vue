@@ -10,7 +10,7 @@
             <h5>จำนวนรายการสั่งซื้อ {{ orderlists.length }} รายการ</h5></center>
             <hr>
             <div class="d-grid gap-2 col-6 mx-auto">
-               <center> <b-button variant="btn btn-success" v-on:click="navigateTo('/orderlist/create')"><i class="fa fa-id-card-o">จองที่พักโรงแรม</i>  </b-button>  </center>
+               <center> <b-button variant="btn btn-success" v-on:click="navigateTo('/orderlist/create')"><i class="fa fa-id-card-o">  การสั่งซื่อ</i>  </b-button>  </center>
             </div>
 
             <br>
